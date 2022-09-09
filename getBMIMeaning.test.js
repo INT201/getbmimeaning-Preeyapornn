@@ -1,4 +1,4 @@
-const testFn = require('./getBMIMeaning')
+import testFn from './getBMIMeaning'
 
 test('output#1', () => {
   expect(testFn(65, 1.8)).toBe('Normal weight')
